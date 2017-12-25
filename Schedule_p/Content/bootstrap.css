@@ -335,7 +335,7 @@ textarea {
 }
 
 a {
-  color: #428bca;
+  color: #ff6a00;
   text-decoration: none;
 }
 
@@ -2517,6 +2517,7 @@ input[type="button"].btn-block {
 
 .glyphicon-home:before {
   content: "\e021";
+  color:#ff6a00;
 }
 
 .glyphicon-file:before {
@@ -3177,6 +3178,7 @@ input[type="button"].btn-block {
 
 .glyphicon-calendar:before {
   content: "\1f4c5";
+  color:#ff6a00;
 }
 
 .glyphicon-pushpin:before {

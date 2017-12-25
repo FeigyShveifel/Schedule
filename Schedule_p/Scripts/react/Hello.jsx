@@ -5,6 +5,6 @@ var Hello = React.createClass( {
   },
 
   render: function() {
-    return <span>Hello {this.props.fname} {this.props.lname}</span>;
+    return <span>Hello {this.props.fname} {this.props.lname}</span> ;
   }
 } );

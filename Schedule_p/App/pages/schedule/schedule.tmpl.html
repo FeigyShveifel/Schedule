@@ -1,8 +1,8 @@
 ﻿
    
    <div >
-    <input type="button" class="btn btn-primary" ng-click="TableLoadMonth()" value="Detailes" ng-disabled="month==false" />
-       <input type="number" ng-change="TableLoadMonth()" ng-model="txt"/>
+    <input type="button" class="btn btn-warning" ng-click="TableLoadMonth()" value="Detailes" ng-disabled="month==false" />
+       <input min="1" max="12" type="number" ng-change="TableLoadMonth()" ng-model="txt"/>
     <table class="table" ng-if="show==true">
         <tr>
             <th>Date</th>

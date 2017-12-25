@@ -1,22 +1,23 @@
-﻿<div>
-   <div> <input type="button" class="btn btn-primary" ng-disabled="Enter==true" ng-click="Exit=false; isEnter=true;" value="signin enter" />
-    <input type="button" class="btn btn-primary" ng-disabled="Enter==false" ng-click="Exit=true; isEnter=true" value="signin exit" /></div>
+﻿<div >
+   <div> <input type="button" class="btn btn-warning" ng-disabled="Enter==true" ng-click="Exit=false; isEnter=true;" value="signin enter" />
+    <input type="button" class="btn btn-warning" ng-disabled="Enter==false" ng-click="Exit=true; isEnter=true" value="signin exit" /></div>
     <br />
     <br />
-    <div style="height:100%">
-        <div style="margin-left:2%;">
-            <div ng-if="show==true"  style="width:80%;background-color:dimgrey;height:50px; margin-top:30px;">
-                good evening! you worked {{sumh}} hours
+    <div  style="width:100%">
+        <div style="margin-left:2%;" class="label-default">
+            <div ng-if="show==true" class="alert-link">
+                 you worked {{sumh}} hours,have a good day
             </div>
         </div>
-        <div class="myFadeAnimation" ng-if="isEnter==true">
-            <div class="message" style="color:black;" >
+
+        <div class="myFadeAnimation" ng-if="isEnter==true" style="width:100%;">
+            <div class="message" >
                 <br />
                 <div ng-if="Enter==false" style="color:black;">good morning, have a nice day!!</div>
                 <br />
             </div>
             <br />
-            <time-Drv ng-if="isEnter==true" timetype="enterTime" timefunction="SaveEnter(enterTime)" ></time-Drv>
+            <time-Drv  ng-if="isEnter==true" timetype="enterTime" timefunction="SaveEnter(enterTime)" ></time-Drv>
         </div>
 
 

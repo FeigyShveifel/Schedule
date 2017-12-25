@@ -6,9 +6,12 @@
     angular.module('SlApp.schedule', []);
     angular.module('SlApp.clock', []);
     angular.module('SlApp.time', []);
+    angular.module('SlApp.login', []);
+
     angular.module('SlApp', [
         // Angular modules 
-        'ngRoute',
+       
+        'ds.clock', 'ui.bootstrap', 'ngAnimate', 'ngRoute',
         'SlApp.route',
         'SlApp.route',
         'SlApp.time',
@@ -16,7 +19,7 @@
         'SlApp.home',
         'SlApp.schedule',
         'SlApp.clock',
-
+        'SlApp.login'
         // 3rd Party Modules
         
     ]);
